@@ -28,29 +28,29 @@ function App() {
         </div>
       </header>
       <div className="card-holder">
-      <MemoryCard></MemoryCard>
-      <MemoryCard></MemoryCard>
-      <MemoryCard></MemoryCard>
-      <MemoryCard></MemoryCard>
-      </div>
-      <div>
-      <MemoryCard></MemoryCard>
-      <MemoryCard></MemoryCard>
-      <MemoryCard></MemoryCard>
-      <MemoryCard></MemoryCard>
-      </div>
-      <div>
-      <MemoryCard></MemoryCard>
-      <MemoryCard></MemoryCard>
-      <MemoryCard></MemoryCard>
-      <MemoryCard></MemoryCard>
-      </div>
-      <div>
-      <MemoryCard></MemoryCard>
-      <MemoryCard></MemoryCard>
-      <MemoryCard></MemoryCard>
-      <MemoryCard></MemoryCard>
-      </div>
+        <MemoryCard></MemoryCard>
+        <MemoryCard></MemoryCard>
+        <MemoryCard></MemoryCard>
+        <MemoryCard></MemoryCard>
+        </div>
+        <div>
+        <MemoryCard></MemoryCard>
+        <MemoryCard></MemoryCard>
+        <MemoryCard></MemoryCard>
+        <MemoryCard></MemoryCard>
+        </div>
+        <div>
+        <MemoryCard></MemoryCard>
+        <MemoryCard></MemoryCard>
+        <MemoryCard></MemoryCard>
+        <MemoryCard></MemoryCard>
+        </div>
+        <div>
+        <MemoryCard></MemoryCard>
+        <MemoryCard></MemoryCard>
+        <MemoryCard></MemoryCard>
+        <MemoryCard></MemoryCard>
+        </div>
       {/* <MemoryCard></MemoryCard> */}
       {/* { projects.map((project, index) => {
         return <div><MemoryCard 
