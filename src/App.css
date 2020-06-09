@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,6 +24,12 @@
   color: white;
 }
 
+.card-holder{
+  padding-top: 40px;
+}
+.subtitle {
+  color: #767676;
+}
 .App-link {
   color: #61dafb;
 }
