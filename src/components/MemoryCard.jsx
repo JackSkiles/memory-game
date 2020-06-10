@@ -15,14 +15,14 @@ export default class MemoryCard extends Component  {
     render() {
         const title = 'Card Title';
         let innerClass = "MemoryCard__inner";
-        if(this.state.isFlipped){
+        if(this.props.isFlipped){
             innerClass += " flipped";
         }
         return (
             <div className='MemoryCard' onClick={ this.clickHandler.bind(this) }>
                 <div className={innerClass}>
                     <div className="MemoryCard__back">
-                        <img src={ logo } class="img"></img>
+                        <img src={ logo } className="img"></img>
                         {/* {this.props.name}
                         <br></br>
                         { this.props.likes >= 0 ? (
@@ -30,7 +30,7 @@ export default class MemoryCard extends Component  {
                         ) : ''} */}
                     </div>
                     <div className="MemoryCard__front">
-                        ∆
+                        {this.props.symbol}
                     </div>
                 </div>
             </div>
