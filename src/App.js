@@ -22,19 +22,36 @@ function shuffle(a) {
   return a;
 }
 export default class App extends Component {
+  unflipCards(card1Index, card2Index){
+    const card1 = this.state.deck[card1Index];
+    const card2 = this.state.deck[card2Index];
+    card1.isFlipped = false;
+    card2.isFlipped = false;
+    newDeck = this.state.deck.map((card1, card2) {
+      
+    })
+  }
     pickCard(cardIndex){
       if(this.state.deck[cardIndex].isFlipped){
         return
       }
       const cardToFlip = {...this.state.deck[cardIndex]}
       cardToFlip.isFlipped = true;
-      const newPickedCards = this.state.pickedCards.concat(cardIndex);
+      const newPickedCards = [];
+      //this.state.pickedCards.concat(cardIndex)
       const newDeck = this.state.deck.map((card, index) => {
         if(cardIndex === index){
           return cardToFlip;
         }
         return card;
       });
+      if(newPickedCards.length === 2){
+        const card1Index = newPickedCards[0];
+        const card2Index = newPickedCards[1];
+        if(card1Index[newDeck] != card2Index[newDeck] ){
+          //unflip cards
+        }
+      }
       this.setState({deck:newDeck, pickedCards:newPickedCards});
     }
 
@@ -48,6 +65,7 @@ export default class App extends Component {
     render() { 
       const cardsJSX = this.state.deck.map((card, index) => {
         return <MemoryCard
+        pickCard={this.pickCard.bind(this,index)}
         symbol={card.symbol}
         isFlipped={card.isFlipped}
         key={index}

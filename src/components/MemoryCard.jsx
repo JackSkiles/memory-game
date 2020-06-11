@@ -5,13 +5,10 @@ import logo from './logo-wrench-white.png'
 
 
 export default class MemoryCard extends Component  {
-    constructor(){
-        super();
-        this.state = { isFlipped: false};
-    }
-    clickHandler(){
-        this.setState({ isFlipped: !this.state.isFlipped });
-    }
+    // constructor(){
+    //     super();
+    //     this.state = { isFlipped: false};
+    // }
     render() {
         const title = 'Card Title';
         let innerClass = "MemoryCard__inner";
@@ -19,7 +16,7 @@ export default class MemoryCard extends Component  {
             innerClass += " flipped";
         }
         return (
-            <div className='MemoryCard' onClick={ this.clickHandler.bind(this) }>
+            <div className='MemoryCard' onClick={ this.props.pickCard }>
                 <div className={innerClass}>
                     <div className="MemoryCard__back">
                         <img src={ logo } className="img"></img>
