@@ -39,4 +39,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### Welcome to my React Memory Card app! 
 
-In this app React is used to set and store states of different cards to decide if they are flipped or not, and to store values. When flipped the program will check the first card to the second card to see if they match. If they do not match the cards will flip back after one second, being set on a timer. Enjoy playing and hope you have a good memory!
+In this app React is to create a clean page that allows you to flip cards with animation.
+
+if statements and other checks are used to check if cards are flipped or not, and those values are stored in variables that are compared to each other.
+
+When flipped the program will check the first card to the second card to see if they match. If they do not match the cards will flip back after one second, being set on a timer. Enjoy playing and hope you have a good memory!
