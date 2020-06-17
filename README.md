@@ -37,6 +37,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Welcome to my React Memory Card app! 
+### Welcome to my React Memory Card app! 
 
 In this app React is used to set and store states of different cards to decide if they are flipped or not, and to store values. When flipped the program will check the first card to the second card to see if they match. If they do not match the cards will flip back after one second, being set on a timer. Enjoy playing and hope you have a good memory!
