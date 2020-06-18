@@ -10,10 +10,18 @@ This is what the page looks like when first loaded. Mysterious, right?
 
 ![chrome_2020-06-17_21-51-55](https://user-images.githubusercontent.com/62663652/84968754-3c117d80-b0e5-11ea-999b-1f9a3d2cf980.png)
 
+
+
 When flipped the program will check the first card to the second card to see if they match. If they do not match the cards will flip back after one second, being set on a timer.
+
 ![chrome_2020-06-17_21-52-04](https://user-images.githubusercontent.com/62663652/84968939-a4605f00-b0e5-11ea-85a0-7cf753372716.png)
 
-Enjoy playing and hope you have a good memory!
+
+If you manage to guess the right cards they will stay flipped. Keep guessing until you get them all!
+
+![chrome_2020-06-17_21-52-49](https://user-images.githubusercontent.com/62663652/84968992-bcd07980-b0e5-11ea-83de-afb81614c1f1.png)
+
+Enjoy playing, and hope you have a good memory!
 
 ## Available Scripts
 
