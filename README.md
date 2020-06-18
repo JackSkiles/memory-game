@@ -7,6 +7,8 @@ In this app React is to create a clean page that allows you to flip cards with a
 
 if statements and other checks are used to check if cards are flipped or not, and those values are stored in variables that are compared to each other.
 
+![chrome_2020-06-17_21-51-55](https://user-images.githubusercontent.com/62663652/84968754-3c117d80-b0e5-11ea-999b-1f9a3d2cf980.png)
+
 When flipped the program will check the first card to the second card to see if they match. If they do not match the cards will flip back after one second, being set on a timer. Enjoy playing and hope you have a good memory!
 
 ## Available Scripts
